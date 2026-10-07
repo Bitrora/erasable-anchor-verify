@@ -140,7 +140,7 @@ is worse than no tool, because people stop reading the failures.
 npm test
 ```
 
-41 tests, no dependencies. The CLI ones spawn the actual binary and assert on
+45 tests, no dependencies. The CLI ones spawn the actual binary and assert on
 exit codes and output rather than importing its functions, because exit codes
 are the entire interface for anyone wiring this into CI and are easy to get
 wrong in a way no unit test notices.
