@@ -1,6 +1,6 @@
 # erasable-anchor-verify
 
-Independent verifiers for [erasable-anchor](https://github.com/RecruiterLog/erasable-anchor)
+Independent verifiers for [erasable-anchor](https://github.com/Bitrora/erasable-anchor)
 proofs: a Web Crypto module for the browser, and a zero-dependency CLI.
 
 ```
@@ -13,7 +13,7 @@ No install, no clone, no account, and no cooperation from RecruiterLog beyond
 the data they serve:
 
 ```bash
-curl -sO https://raw.githubusercontent.com/RecruiterLog/erasable-anchor-verify/main/bin/verify-anchor.mjs
+curl -sO https://raw.githubusercontent.com/Bitrora/erasable-anchor-verify/main/bin/verify-anchor.mjs
 node verify-anchor.mjs f9ab4eff-01d5-49ef-a682-9b457b9e6d94
 ```
 
@@ -51,7 +51,7 @@ library's arithmetic with that library's own code. It would agree by
 construction and prove nothing.
 
 So both verifiers here are written from
-[the spec](https://github.com/RecruiterLog/erasable-anchor/blob/main/SPEC.md),
+[the spec](https://github.com/Bitrora/erasable-anchor/blob/main/SPEC.md),
 not from the implementation, and neither imports it. They are held in
 agreement by a conformance suite that runs both against the fixed vectors
 published with the spec, plus a fuzz check across 2,000 randomly generated

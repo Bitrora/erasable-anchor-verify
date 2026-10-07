@@ -7,6 +7,6 @@ This product includes software developed at RecruiterLog
 Licensed under the Apache License, Version 2.0. See LICENSE.
 
 test/vectors.json is copied verbatim from the erasable-anchor package
-(https://github.com/RecruiterLog/erasable-anchor), which is under the same
+(https://github.com/Bitrora/erasable-anchor), which is under the same
 licence. It is duplicated rather than imported on purpose: this package must
 not depend on the implementation it exists to check independently.

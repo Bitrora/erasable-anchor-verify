@@ -54,7 +54,7 @@ jobs:
       - name: Compare test/vectors.json against erasable-anchor
         run: |
           curl -fsSL -o upstream.json \
-            https://raw.githubusercontent.com/RecruiterLog/erasable-anchor/main/test/vectors.json
+            https://raw.githubusercontent.com/Bitrora/erasable-anchor/main/test/vectors.json
           if diff -q upstream.json test/vectors.json; then
             echo "vectors are in step with erasable-anchor"
           else

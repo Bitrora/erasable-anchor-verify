@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Independent verifiers for erasable-anchor proofs: a Web Crypto module for the browser and a zero-dependency CLI.",
   "license": "Apache-2.0",
-  "author": "RecruiterLog",
-  "homepage": "https://github.com/RecruiterLog/erasable-anchor-verify",
+  "author": "Bitrora",
+  "homepage": "https://github.com/Bitrora/erasable-anchor-verify",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RecruiterLog/erasable-anchor-verify.git"
+    "url": "git+https://github.com/Bitrora/erasable-anchor-verify.git"
   },
   "bugs": {
-    "url": "https://github.com/RecruiterLog/erasable-anchor-verify/issues"
+    "url": "https://github.com/Bitrora/erasable-anchor-verify/issues"
   },
   "keywords": [
     "merkle",
